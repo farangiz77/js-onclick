@@ -5,6 +5,7 @@ const btn3 = document.querySelector("#btn3")
 const btn4 = document.querySelector("#btn4")
 const box = document.querySelector("#box img")
 const btn5 = document.querySelector("#btn5")
+const box1 = document.querySelector("#box1")
 
 
 
@@ -36,7 +37,11 @@ btn4.onclick = () => {
 
 btn5.onclick = () => {
     box.classList.add("anim")
+}
 
+box1.onclick = () => {
+    box1.classList.add("open")
+    box.classList.add("close")
 
 }
 

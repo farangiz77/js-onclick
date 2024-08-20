@@ -30,6 +30,11 @@ animation: anim 5s infinite linear;
 
 }
 
+.anim {
+    animation: anim 5s infinite linear;
+
+}
+
 
 @keyframes anim{
     0%{
